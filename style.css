@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  @media screen and (min-width: 480px) {
+    body {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    background: grey;
+    background-size: 50;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 0px;
+  }
+.navbar{
+    overflow: hidden;
+    background-color: yellowgreen;
+    position: relative;
+    width: 100%;
+    min-height: 80;
+
+}
+.navbar a{
+    float: right;
+    display: block;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px 10x;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 2px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+
+.hero-image {
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.myword {
+    font-weight: bolder;
+    line-height: 1.em;
+}
+.bukky {
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    text-transform: #ff0000;
+}
+#brown {
+  background: darkgrey;
+}
+
+#brown image{
+  text-align: center;
+  position: relative;
+}
+
+.about p {
+  text-decoration: white;
+  margin-left: 15px;
+  text-transform: initial;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+.row2{
+  display: flex;
+}
+
+.word2 p{
+  font-weight: 350px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  text-transform: initial;
+  line-height: 1.6em;
+  background-color: maroon;
+  padding-bottom: 10px;
+}
+
+.footer {
+ background-color: yellowgreen;
+ text-align: center;
+ margin-top: 50px;
+ padding: 10px;
+ text-decoration: none;
+}
+
+.footer1{
+  background-color: yellowgreen;
+  margin-top; 50px;
+  padding: 20%;
+  text-decoration: none;
+  text-align: centre;
+  padding-bottom: 20px;
+}
+
+#bg {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  text-decoration: red;
+  text-align: justify;
+}
+
+.intro h1{
+  color: #f1f1f1;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
